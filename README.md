@@ -12,3 +12,9 @@ module load conda_R/3.4.x
 
 Then just install keras as per the documentation
 
+
+```
+pip install keras --user
+pip install theano --user
+pip install tensorflow --user
+```
