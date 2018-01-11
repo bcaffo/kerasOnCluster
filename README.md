@@ -12,8 +12,17 @@ answered yes and put it in the path in my bashrc
 library(keras)
 install_keras()
 ```
-(so easy)
+Install a ton of python libraries (these may not be necessary)
+```
+pip install virtualenv --user --upgrade
+pip install keras --user --upgrade
+pip install theano --user --upgrade
+```
 
+Tensorflow had some issues with default pip (may not be necessary)
+```
+pip install --user --upgrade  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.1.0-py2-none-any.whl
+```
 
 The hard way
 
